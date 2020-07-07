@@ -1,0 +1,69 @@
+baseURL = "https://adisetiawan.github.io/"
+languageCode = "en-us"
+title = "Adi's Blog"
+publishDir = "docs"
+theme = "hyde-hyde"
+
+## Site Settings
+[params]
+    author = "Adi Setiawan"
+    title = "Adi's blog"
+    description = "Random personal stuff, u've been warned :)"
+    authorimage = "/img/linux-tux.png"
+    dateformat = "2 Jan, 2006"
+
+    # sidebar, copyright & license
+    copyright = "Adi Setiawan"
+    since = 2020
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    # highlightjs = true
+    # highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "adisetiawan"
+    #linkedin = "adisetiawan"
+    twitter = "adisetiawan"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    email = "adisetiawan@gmail.com"
+    #gravatar = "adisetiawan@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Blogs"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Projects"
+    identifier = "project"
+    weight = 300
+    url = "/project/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
+[[menu.main]]
+    name = "Buy me a coffee"
+    identifier = "buy-me-cofee"
+    weight = 400
+    url = "https://www.buymeacoffee.com/adisetiawan"
+[[menu.main]]
+    name = "Dukung saya"
+    identifier = "dukung-saya"
+    weight = 400
+    url = "https://saweria.co/adisetiawan"
