@@ -1,6 +1,6 @@
 baseURL = "https://adisetiawan.github.io/"
 languageCode = "en-us"
-title = "Adi Setiawan Blog"
+title = "Adi Setiawan"
 publishDir = "docs"
 theme = "hyde-hyde"
 googleAnalytics = "UA-37309443-1"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-37309443-1"
 [params]
     author = "Adi Setiawan"
     title = "Adi Setiawan blog"
-    description = "Random personal stuff, u've been warned :)"
+    description = "random stuff, u've been warned :)"
     authorimage = "/img/linux-tux.png"
     dateformat = "2 Jan, 2006"
 
@@ -57,13 +57,3 @@ googleAnalytics = "UA-37309443-1"
     identifier = "about"
     weight = 300
     url = "/about/"
-[[menu.main]]
-    name = "Buy me a coffee"
-    identifier = "buy-me-cofee"
-    weight = 400
-    url = "https://www.buymeacoffee.com/adisetiawan"
-[[menu.main]]
-    name = "Dukung saya"
-    identifier = "dukung-saya"
-    weight = 400
-    url = "https://saweria.co/adisetiawan"
