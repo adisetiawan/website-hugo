@@ -1,13 +1,14 @@
 baseURL = "https://adisetiawan.github.io/"
 languageCode = "en-us"
-title = "Adi's Blog"
+title = "Adi Setiawan Blog"
 publishDir = "docs"
 theme = "hyde-hyde"
+googleAnalytics = "UA-37309443-1"
 
 ## Site Settings
 [params]
     author = "Adi Setiawan"
-    title = "Adi's blog"
+    title = "Adi Setiawan blog"
     description = "Random personal stuff, u've been warned :)"
     authorimage = "/img/linux-tux.png"
     dateformat = "2 Jan, 2006"
@@ -38,7 +39,6 @@ theme = "hyde-hyde"
     #linkedin = "adisetiawan"
     twitter = "adisetiawan"
     # orcid = "<xxxx-xxxx-xxxx-xxxx>"
-    email = "adisetiawan@gmail.com"
     #gravatar = "adisetiawan@gmail.com"
 
 ## Main Menu
