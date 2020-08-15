@@ -9,7 +9,7 @@ images:
 - /img/earth.jpg
 ---
 
-{{< figure src="/img/banner-kelas-ethereum.jpg" alt="bumi dari saturnus" >}}
+{{< figure src="/img/earth.jpg" alt="bumi dari saturnus" >}}
 
 Foto diatas terpasang di wallpaper untuk mengingatkan betapa kecilnya dunia. Titik kecil putih itu adalah bumi dari planet saturnus.
 
